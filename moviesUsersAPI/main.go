@@ -56,5 +56,5 @@ func main() {
 
 	fmt.Println("Server is running on port 7777...")
 	// starting the server on port 7777
-	http.ListenAndServe(":7777", nil) // Start the server on port 7777
+	http.ListenAndServe(":7777", nil)
 }
