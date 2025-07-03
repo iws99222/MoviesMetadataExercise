@@ -10,9 +10,9 @@ import (
 // all messages response
 
 var (
-	movies      = make(map[string]Movie)
+	movies      = make(map[string]Movie) // map to store movies
 	watchedList = make(map[string]map[string]bool) // map to store watched movies by user ID
-) // map to store movies
+) 
 
 // function to get all movies
 func GetAllMovies(w http.ResponseWriter, r *http.Request) {
