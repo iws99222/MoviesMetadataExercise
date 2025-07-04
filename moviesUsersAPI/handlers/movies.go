@@ -7,8 +7,6 @@ import (
 	"github.com/google/uuid"
 )
 
-// all messages response
-
 var (
 	movies      = make(map[string]Movie) // map to store movies
 	watchedList = make(map[string]map[string]bool) // map to store watched movies by user ID
